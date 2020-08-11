@@ -49,6 +49,13 @@ a:hover{
 
 #content a {
     font-size: 24px;
+    color: red;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#content a:hover{
+    background-color: rgb(0, 217, 255);
 }
 
 hr{
