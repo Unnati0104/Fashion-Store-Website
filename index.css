@@ -42,7 +42,6 @@ a:hover{
     left: 40%;
     text-align: center;
     font-size: large;
-
 }
 
 #content a {
@@ -78,19 +77,19 @@ h3{
 
 @keyframes animate {
     0%,100% {
-        background: url(images/bg-2.jpg);
+        background: url(images/bg-7.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
 
     33% {
-        background: url(images/bg-6.jpg);
+        background: url(images/bg-10.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
 
     67% {
-        background: url(images/bg-7.jpg);
+        background: url(images/bg-6.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
