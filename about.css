@@ -1,0 +1,136 @@
+.bg{
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img{
+  height: 60px;
+  float: left;
+}
+
+.nav-link:hover{
+  background-color: grey;
+  font-weight: bold;
+}
+
+.active{
+  background-color:black;
+}
+
+#banner{
+background: url('https://images.unsplash.com/photo-1519944308945-afc968547a9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+height: 60vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin:40px 0px 60px 0px;
+width: 100%;
+/* opacity: 0.7; */
+display: grid;
+place-items: center;
+}
+
+#banner h1{
+color: white;
+font-weight: bold;
+font-size: 60px;
+background-color: burlywood;
+}
+
+#context,#team h3{
+text-align: center;
+color: firebrick;
+}
+
+#context p{
+text-align: justify;
+padding: 0px 100px 0px 100px;
+color: #000;
+}
+
+#joint-card h1{
+margin-top: 50px;
+text-align: center;
+word-spacing: 12px;
+color: rgb(7, 7, 184);
+}
+
+h1 span{
+font-style: italic;
+font-weight: bold;
+color: darkblue;
+}
+
+.card-title{
+text-align: center;
+word-spacing: 12px;
+}
+
+.card-text{
+text-align: justify;
+word-spacing: 5px;
+}
+
+.card-group{
+border-bottom: 2px solid black;
+}
+
+.container2{
+width: 25rem;
+height: 18rem;
+border-style: inset;
+float: left;
+margin: 0px 18px 18px 18px;
+}
+
+.card-text{
+padding: 8px 5px 1px 5px;
+}
+
+.card-heading{
+padding: 8px 5px 1px 5px;
+}
+
+#team{
+margin-bottom: 700px;
+margin-top: 80px;
+}
+
+/* footer */
+.footer{
+background-color:rgb(51, 49, 49);
+height: 60px;
+text-align: center;
+padding-top: 15px;
+color:white;
+}
+.container3{
+background-color:rgb(95, 95, 95);
+color: white;
+padding-left: 250px;
+}
+h6{
+font-size: 20px;
+color: black;
+}
+a{
+text-align: center;
+}
+.container3 a{
+color:white;
+}
+

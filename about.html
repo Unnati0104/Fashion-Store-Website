@@ -6,107 +6,13 @@
     <title>About Us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <style>
-        
-        .bg{
-            background-color: rgba(0, 0, 0, 0.637);
-        }
-        .navbar{
-          position: fixed;
-          top: 0;
-          width: 100%;
-          z-index: 5;
-        }
-
-        .navbar-brand{
-            font-size: 28px;
-            font-weight: bold;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .navbar-brand img{
-          height: 60px;
-          float: left;
-        }
-
-        .nav-link:hover{
-          background-color: grey;
-          font-weight: bold;
-        }
-
-        #banner{
-        background: url('https://images.unsplash.com/photo-1519944308945-afc968547a9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
-        height: 60vh;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin-bottom: 40px;
-        width: 100%;
-        /* opacity: 0.7; */
-        display: grid;
-        place-items: center;
-      }
-
-      #banner h1{
-        color: white;
-        font-weight: bold;
-        font-size: 60px;
-        background-color: burlywood;
-      }
-
-      #context,#team h3{
-        text-align: center;
-        color: firebrick;
-      }
-
-      #context p{
-        text-align: justify;
-        padding: 0px 100px 0px 100px;
-        color: #000;
-      }
-
-      #joint-card h1{
-        margin-top: 60px;
-        text-align: center;
-        word-spacing: 12px;
-      }
-
-      .card-title{
-        text-align: center;
-        word-spacing: 12px;
-      }
-
-      .card-text{
-        text-align: justify;
-        word-spacing: 5px;
-      }
-
-      hr{
-        margin-top: 0px;
-        width: 100%;
-        background: black; 
-        margin-bottom: 25px; 
-      }
-
-      #team .card-img-top{
-        float: left;
-        width: 50%;
-        height: 150px;
-      }
-
-      .card{
-        float: left;
-      }
-    </style>
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
     <div class="container-fluid">
       <!-- navbar-fixed-top -->
     <nav class="navbar navbar-expand-lg navbar-dark bg m-0 p-0">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img src="images/logo.jpg" alt="company-logo">
             <span class="align-middle"> Fashion Divine </span>
           </a>
@@ -120,7 +26,7 @@
               <a class="nav-link" href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="home.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Image Gallery</a>
@@ -129,7 +35,7 @@
               <a class="nav-link" href="#">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -147,7 +53,7 @@
         <p>So we created a company to bring you products you will fall in love with; to give you a chance to create your own space, to tap into those hidden talents and make your personal looks and collections; to help you share your creations with friends to get that second opinion, to inspire or be inspired; and to help you shop in a way that you will find mesmerizing.</p>    
       </div>
       <div id="joint-card">
-       <h1> We Believe in Good Fashion</h1>
+       <h1> We Believe in Good <span>Fashion</span></h1>
        <div class="card-group">
         <div class="card">
           <img class="card-img-top" src="https://images.unsplash.com/photo-1593418440931-311f866e2b05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
@@ -173,49 +79,149 @@
         </div>
       </div>
       </div>
-      <hr>
       <div id="team">
         <h3>Our Team</h3>
-        <!-- <div class="card-deck"> -->
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top" src="images/bg-10.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="container2">
+          <div class="col">
+            <div class="row">
+              <div class="col"><img class="card-img-top" src="images/account.png" alt="Card image cap"></div>
+              <div class="col"><h4 class="card-heading">Account Manager</h4>
+                <div class="email"><h6>acc_mag@gmail.com</h6></div>
+              </div>
+            </div>
+            <div class="row" style= "margin: 5px 5px 2px 5px"><p class="card-text">An account manager is expected to have a good level of commercial awareness gained through competitive shop visits and keeping up to date with reading material, for example trade press, to develop the business.</p></div>
           </div>
         </div>
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top" src="images/bg-10.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <div class="container2">
+          <div class="col">
+            <div class="row">
+              <div class="col"><img class="card-img-top" src="images/fash-designer.jpg" alt="Card image cap"></div>
+              <div class="col"><h4 class="card-heading">Fashion Designer</h4>
+                <div class="email"><h6>fas_deg@gmail.com</h6></div>
+              </div>
+            </div>
+            <div class="row" style= "margin: 5px 5px 2px 5px"><p class="card-text">Fashion designers work on the design of a clothing range. While some fashion designers may focus completely on a specialist area, such as sportswear, childrenswear, womenswear, menswear or accessories.</p></div>
           </div>
         </div>
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top" src="images/bg-10.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <div class="container2">
+          <div class="col">
+            <div class="row">
+              <div class="col"><img class="card-img-top" src="images/gra_designer.jpg" alt="Card image cap"></div>
+              <div class="col"><h4 class="card-heading">Graphics Designer</h4>
+                <div class="email"><h6>grp_deg@gmail.com</h6></div>
+              </div>
+            </div>
+            <div class="row" style= "margin: 5px 5px 2px 5px"><p class="card-text">A graphic designer produces visual solutions to communicate messages for their clients. Most work is 2-dimensional and used within a range of media, including advertising campaigns, book covers, magazines, posters and corporate communications.</p></div>
           </div>
         </div>
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top" src="images/bg-10.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <div class="container2">
+          <div class="col">
+            <div class="row">
+              <div class="col"><img class="card-img-top" src="images/web_dev.png" alt="Card image cap"></div>
+              <div class="col"><h5 class="card-heading">Website Designer and Devloper</h5>
+                <div class="email"><h6>web_dev@gmail.com</h6></div>
+              </div>
+            </div>
+            <div class="row" style= "margin: 5px 5px 2px 5px"><p class="card-text">Developers build a website’s core structure using coding languages, while designers are more visually creative and user-focused. Developers use their programming knowledge to breathe life into the designer’s creative vision.</p></div>
           </div>
         </div>
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top" src="images/bg-10.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <div class="container2">
+          <div class="col">
+            <div class="row">
+              <div class="col"><img class="card-img-top" src="images/qa.jpg" alt="Card image cap"></div>
+              <div class="col"><h5 class="card-heading">Quality Assurance Manager</h5>
+                <div class="email"><h6>qty_mag@gmail.com</h6></div>
+              </div>
+            </div>
+            <div class="row" style= "margin: 5px 5px 2px 5px"><p class="card-text">A quality assurance, or QA, manager aims to ensure that the product or service an organisation provides is fit for its purpose and meets customer expectations. The QA manager co-ordinates the activities required to meet this aim.</p></div>
           </div>
         </div>
-        <div class="card" style="width: 30rem;">
-          <img class="card-img-top" src="images/bg-10.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <div class="container2">
+          <div class="col">
+            <div class="row">
+              <div class="col"><img class="card-img-top" src="images/sale_mgr.jpg" alt="Card image cap"></div>
+              <div class="col"><h4 class="card-heading">Sales Manager</h4>
+                <div class="email"><h6>sal_mag@gmail.com</h6></div>
+              </div>
+            </div>
+            <div class="row" style= "margin: 5px 5px 2px 5px"><p class="card-text">You will be expected to maximise business growth and brand integrity through the development of your own key accounts and sales team.You are likely to manage a team of Sales Executives and encourage them to grow and develop their own account. </p></div>
           </div>
         </div>
       </div>
-    </div>
-   <!-- </div> -->
+
+      <footer class="page-footer " id="footer">
+        <!-- Footer Links -->
+        <div class="container3 text-center text-md-left">
+            <!-- Grid row -->
+            <div class="row ">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 column_1">
+                <!-- Content -->
+                <h6 class="text"> <u>Online Shopping</u></h6>
+                  <p><a href="#">Men</a><br></p>
+                   <p> <a href="#">Women</a><br></p>
+                   <p> <a href="#">Kids</a><br></p>
+                   
+            </div>
+                      <a name="contact"></a>
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto column_2">
+                <!-- Links -->
+                <h6 class="text"> <u> Get Started</u></h6>
+                <p>
+                <a href="home.html">Home</a>
+                </p>
+                <p>
+                <a href="about.html">AboutUs</a>
+                </p>
+                <p>
+                <a href="#!">Contact</a>
+                </p>
+                <p>
+                <a href="#!">Gallery</a>
+                </p>
+                <p>
+                <a href="#!">Testimonials</a>
+                </p>
+            </div>
+
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-4 col-xl-7 mx-auto ">
+                <h6 class="text"> <u>Contact</u></h6>
+                <br>
+                <!-- Links -->
+                <div class="social-links">    
+                    <a href="#"><i class="fa  fa-instagram fa-3x" aria-hidden="true"></i> </a>
+                    <a href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i> </a>
+                    <a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i> </a>
+                    <a href="#"><i class="fa fa-youtube fa-3x" aria-hidden="true"></i> </a>
+                    <a href="#"><i class="fa fa-google-plus fa-3x" aria-hidden="true"></i></a>
+                    
+                </div>
+                
+
+            </div>
+            <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer">© 2020 Copyright
+            <a href="index.html"> Fashion Divine</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+  </div>
+  
     
 </body>
 </html>

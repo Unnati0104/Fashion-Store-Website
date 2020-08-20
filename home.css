@@ -59,6 +59,10 @@
         background-color: white;
     }
 
+    .active{
+        background-color:black;
+      }
+
     /* center image */
     #banner{
         margin-top: 20px;
