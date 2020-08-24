@@ -1,3 +1,8 @@
+/* body{
+  margin: 0;
+  padding: 0;
+} */
+
 .bg{
     background-color: rgba(0, 0, 0, 0.637);
 }
@@ -39,16 +44,17 @@ background-position: center;
 background-size: cover;
 margin:40px 0px 60px 0px;
 width: 100%;
-/* opacity: 0.7; */
 display: grid;
 place-items: center;
 }
 
+
 #banner h1{
+position: relative;
 color: white;
 font-weight: bold;
 font-size: 60px;
-background-color: burlywood;
+/* background-color: burlywood; */
 }
 
 #context,#team h3{
@@ -118,19 +124,40 @@ text-align: center;
 padding-top: 15px;
 color:white;
 }
+
 .container3{
 background-color:rgb(95, 95, 95);
 color: white;
 padding-left: 250px;
 }
+
 h6{
 font-size: 20px;
 color: black;
 }
+
 a{
 text-align: center;
 }
+
 .container3 a{
 color:white;
 }
 
+#sections{
+  margin-top: 80px;
+}
+
+hr{
+  background-color: grey;
+}
+
+#sections .card-deck{
+  margin: 0px 18px 18px 0px;
+  }
+
+h2{
+  text-align: center;
+  color: crimson;
+  font-style: italic;
+}

@@ -5,7 +5,8 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    animation: animate ease-in-out 16s infinite;
+    /* animation: animate ease-in-out 16s infinite; */
+    animation: cf3FadeInOut ease-in-out 16s infinite alternate;
 }
 
 ul{
@@ -75,23 +76,23 @@ h3{
     font-size: 25px;
 }
 
-@keyframes animate {
+@keyframes cf3FadeInOut {
     0%,100% {
         background: url(images/bg-7.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
     }
 
     33% {
         background: url(images/bg-10.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
     }
 
     67% {
         background: url(images/bg-6.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
     }
 
 }
