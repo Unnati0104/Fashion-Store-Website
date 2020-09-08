@@ -20,6 +20,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+    line-height: 55px;
 }
 
 .navbar-brand img{
